@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Company 1",
+    "specialties": ["Excavation", "Plumbing", "Electrical"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 2,
+    "name": "Company 2",
+    "specialties": ["Electrical"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 3,
+    "name": "Company 3",
+    "specialties": ["Excavation"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 4,
+    "name": "Company 4",
+    "specialties": ["Plumbing"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 5,
+    "name": "Company 5",
+    "specialties": ["Excavation", "Plumbing"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 6,
+    "name": "Company 6",
+    "specialties": ["Excavation", "Plumbing", "Electrical"],
+    "city": "Hamburg"
+  }
+]

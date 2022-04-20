@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 14px;
+}
+
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+.companies-data {
+  display: flex;
+  margin-top: 20px;
+  column-gap: 10px;
+}
+
+img.companyLogo {
+  border-radius: 5px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.companies {
+  flex: 4;
+}
+
+.companiesList {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+.card.company-card {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-center {
+  text-align: center;
+}
+
+h3.company-name {
+  margin-bottom: 20px;
+}
+
+.searchbox-wrapper {
+  margin-top: 50px;
+  text-align: right;
+}
+
+label[for='searchbox'] {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input#searchbox {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 300px;
+}
+
+.specialties {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+h6.speciality {
+  background: #fff;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #7f7f7f;
+  font-weight: 500;
+  font-size: 12px;
+  border: 1px solid #7f7f7f;
+}
+
+.filter-option label {
+  margin-left: 10px;
+  cursor: pointer;
+}
